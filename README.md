@@ -20,7 +20,7 @@ $eventManager->addEventHandler('main', 'onMainGeoIpHandlersBuildList', function(
 ```
 
 Пример использования в своем коде
-```
+```php
 // Получаем IP пользователя. Фактически метод получает параметры HTTP_X_FORWARDED_FOR или REMOTE_ADDR из $_SERVER 
 $ipAddress = \Bitrix\Main\Service\GeoIp\Manager::getRealIp();
 
