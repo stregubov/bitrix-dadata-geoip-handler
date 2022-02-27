@@ -5,7 +5,7 @@
 Для подключения обработчика используем событие модуля main, которое называется onMainGeoIpHandlersBuildList
 
 Код подключения 
-```
+```php
 $eventManager = \Bitrix\Main\EventManager::getInstance();
 $eventManager->addEventHandler('main', 'onMainGeoIpHandlersBuildList', function()
     {
