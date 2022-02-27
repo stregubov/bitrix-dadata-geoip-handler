@@ -12,7 +12,7 @@ $eventManager->addEventHandler('main', 'onMainGeoIpHandlersBuildList', function(
         return new \Bitrix\Main\EventResult(
             \Bitrix\Main\EventResult::SUCCESS,
             [
-                '\DaData' => '/local/Location/DaData.php',
+                '\DaData' => '/local/DaData.php',
             ],
             'main'
         );
